@@ -161,9 +161,24 @@ $ git commit --amend
 最终你只会有一个提交——第二次提交将代替第一次提交的结果。
 
 
-# 推送到远程仓库
+### 推送到远程仓库
 ```Git
 git add README.md
 git commit -m "更新 README：添加项目说明和目录结构"
 git push origin main
+```
+
+### 删除操作
+#### 暂存删除操作
+```Git
+git add -u "文件名.后缀"
+```
+
+#### 恢复删除的文件
+```git
+git restore "文件名.后缀"
+```
+#### 删除文件夹
+```git
+$ rm -rf 线性表
 ```
