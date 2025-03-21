@@ -168,6 +168,14 @@ git commit -m "更新 README：添加项目说明和目录结构"
 git push origin main
 ```
 
+### 创建操作
+
+#### 创建md 文件
+
+```git
+touch 文件名.md
+```
+
 ### 删除操作
 #### 暂存删除操作
 ```Git
